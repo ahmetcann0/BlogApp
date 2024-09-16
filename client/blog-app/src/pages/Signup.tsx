@@ -1,11 +1,13 @@
+// src/pages/Singup.tsx
 
+import React from 'react';
 
 function Signup(){
 
     return(
 
         <div>
-            Signup
+            Get Started
         </div>
 
 
@@ -14,4 +16,4 @@ function Signup(){
 }
 
 
-export default Signup
+export default Signup;
