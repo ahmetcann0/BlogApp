@@ -1,10 +1,12 @@
-// src/components/Logo.jsx
 import React from 'react';
-import logo from '../assets/scheduler_icon.png'; // Görselin doğru yolu
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import logo from '../assets/scheduler_icon.png'; // Ensure the path to your image is correct
 
-const Logo = () => {
+const Logo: React.FC = () => {
   return (
-    <img src={logo} alt="Scheduler Logo" className="w-16 h-16" />
+    <Link to="/" className="flex items-center">
+      <img src={logo} alt="Scheduler Logo" className="w-16 h-16" />
+    </Link>
   );
 }
 

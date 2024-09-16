@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 interface AppButtonProps {
   text: string;
-  to: string; // Yönlendirme rotası
+  to: string; 
   className?: string;
 }
 
