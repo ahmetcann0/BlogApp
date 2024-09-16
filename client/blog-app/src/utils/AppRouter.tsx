@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AppLayout from './components/app_layout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Membership from './pages/Membership';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import Publish from './pages/Publish';
+import AppLayout from '../components/app_layout';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Membership from '../pages/Membership';
+import Login from '../pages/Login';
+import Signup from '../pages/Signup';
+import Publish from '../pages/Publish';
 
-const App: React.FC = () => {
+const AppRouter: React.FC = () => {
   return (
     <Router>
       <Routes>
@@ -25,4 +25,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default AppRouter;
