@@ -5,10 +5,10 @@ import AppTextButton from './app_text_button';
 
 const AppHomeNavbar: React.FC = () => {
   return (
-    <nav className="bg-purple-100 px-20 py-2 flex items-center justify-between">
+    <nav className="bg-black px-40 py-2 flex items-center justify-between">
       <div className="flex items-center">
-        <Logo />
-        <span className="text-2xl text-purple-900 font-bold">BlogApp</span>
+        <Logo /> {/* This now navigates to home */}
+        <span className="text-2xl text-purple-200 font-bold">BlogApp</span>
       </div>
       <div className="flex space-x-6">
         <AppTextButton text="Our Journey" to="/about" />
