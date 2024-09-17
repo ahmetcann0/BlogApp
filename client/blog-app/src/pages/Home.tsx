@@ -1,20 +1,17 @@
 import React from 'react';
-import backgroundImage from '../assets/blog_dream.jpg'; // Adjust path as needed
 
 const Home: React.FC = () => {
   return (
     <div
       className="relative min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+  
     >
       <div
         className="absolute inset-0"
-        style={{
-          background: 'linear-gradient(rgba(128, 0, 128, 0.1), rgba(128, 0, 128, 0.1)), rgba(0, 0, 0, 0.5)',
-        }}
+       
       ></div> {/* Purple overlay with black for better text readability */}
 
-      <div className="relative container mx-auto px-4 py-16 text-white flex flex-col items-center justify-start min-h-screen">
+      <div className="relative container mx-auto px-4 py-16 text-black flex flex-col items-center justify-start min-h-screen">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4">OUR STORY</h1>
           <p className="text-xl mb-8">
