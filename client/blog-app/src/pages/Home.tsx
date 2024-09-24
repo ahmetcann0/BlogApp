@@ -5,7 +5,7 @@ import AppButton from "../components/app_button";
 const Home: React.FC = () => {
   return (
     <>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between bg-slate-100">
         <div className="ml-36">
           <div className="text-base md:text-6xl lg:text-8xl ">Human</div>
           <div className="text-base md:text-6xl lg:text-8xl">
@@ -15,7 +15,11 @@ const Home: React.FC = () => {
             <div className="text-base md:text-l lg:text-xl">
               A place to read, write, and deepen your understanding
             </div>
-            <AppButton text="Join Us" to="/signup" />
+            <AppButton
+              className="md:text-xl"
+              text="Start Reading"
+              to="/signup"
+            />
           </div>
         </div>
 
